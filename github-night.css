@@ -175,7 +175,7 @@ body {
 
 @media only screen and (min-width: 1800px) {
     #write {
-        max-width: 1200px;
+        max-width: 1260px;
     }
 }
 
@@ -1853,7 +1853,7 @@ input[type="checkbox"]:not([disabled]):not(:checked):hover:before {
 
 /* checkbox checked*/
 input[type="checkbox"]:checked:before {
-    content: "\2713";
+    content: none;
     font-size: 0.9rem;
     line-height: 1.2rem;
     color: var(--text-color);
